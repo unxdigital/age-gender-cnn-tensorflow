@@ -27,7 +27,7 @@ In order to test the model in one sigle picture, run
 ```
 python eval.py --I "./images/roger.png" --M "./models/" --font_scale 1 --thickness 1
 ```
-![roger-result](https://raw.githubusercontent.com/unx-digital/Age-Gender-CNN-TensorFlow/master/images/roger-result.png =500x)
+![roger-result](https://raw.githubusercontent.com/unx-digital/Age-Gender-CNN-TensorFlow/master/images/roger-result.png)
 
 Flag **--I** tells where your picture is.If the text label too small or too large on the picture,you can use a different **--font_scale 1** and **--thickness 1** to adjust the text size and thickness.
 
